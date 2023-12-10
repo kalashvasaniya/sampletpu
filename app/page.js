@@ -10,6 +10,7 @@ import Footer from "@/components/Footer/page"
 import { useState } from "react"
 
 import Loading from "./UI/Loading/page"
+import PopupMsg from "@/components/PopupMsg/page"
 
 export default function Main() {
 
@@ -31,6 +32,7 @@ export default function Main() {
       ) : (
         <>
           <Navbar />
+          <PopupMsg/>
           <div className="bg-black text-white pt-12">
             <div className="md:grid md:grid-cols-2 flex flex-col">
               <div className="bg-sky-500 md:h-screen md:rounded-r-full flex justify-center items-center">
