@@ -12,7 +12,7 @@ const PopupMsg = () => {
         <>
             {showBanner ? (
                 <div className="fixed top-[4.5rem] z-50 left-0 w-full bg-sky-500 border-b border-white text-white text-center md:py-4 py-7">
-                    <p className="text-sm font-mono font-bold flex justify-center">Launch - January 2024!
+                    <p className="text-sm font-mono font-bold flex justify-center">Launch - Soon!
                         <button onClick={cancel}>
                             <svg
                                 aria-hidden="true"
